@@ -1,5 +1,5 @@
 {
-  "name": "sim-phone",
+  "name": "react-sim-phone",
   "version": "1.0.0",
   "description": "A phone simulator in react page to rener iframe page.",
   "main": "dist/index.js",
@@ -14,7 +14,8 @@
     "page",
     "phone",
     "simulator",
-    "react"
+    "react",
+    "sim"
   ],
   "peerDependencies": {
     "react": "^16.8.6",
