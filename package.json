@@ -1,0 +1,49 @@
+{
+  "name": "sim-phone",
+  "version": "1.0.0",
+  "description": "A phone simulator in react page to rener iframe page.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist && lessc src/index.less dist/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kimiyang/sim-phone.git"
+  },
+  "keywords": [
+    "page",
+    "phone",
+    "simulator",
+    "react"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "antd": "^3.26.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "less": "^3.10.3"
+  },
+  "author": "kimiyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimiyang/sim-phone/issues"
+  },
+  "homepage": "https://github.com/kimiyang/sim-phone#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties"
+      ]
+    ]
+  }
+}

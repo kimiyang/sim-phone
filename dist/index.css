@@ -1,0 +1,200 @@
+@import '~antd/dist/antd.css';
+.phoneSimulator {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: scale(0.66) translate(50px, -200px);
+}
+.phoneSimulator .demoArea .viewer-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phoneSimulator .demoArea .viewer-container .screenTip {
+  font-weight: 500;
+}
+.phoneSimulator .demoArea .viewer-container .phoneList {
+  margin-bottom: 10px;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7 {
+  zoom: 0.5;
+  background: #111;
+  border-radius: 110px;
+  box-shadow: 0px 0px 0px 2px #aaa;
+  width: 860px;
+  height: 1771px;
+  padding: 205px 55px;
+  position: relative;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7 .component {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////zMzMOOqqgwAAAGtJREFUeNrs1cEJADAIBEHtv2nBHhSUySu/gQtsIvpkn/07GDxxNzL4H2xwsFYbGazVBgdrNRis1WCwT8Lrgn0SYLBWg7Xa4GCtNjJYqw0O1mowWKvBYK0Ga7XBwVptZLBWg8FaDT4ClwADAAGSHCFEPpclAAAAAElFTkSuQmCC);
+  height: 100%;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7 .component-white {
+  background-color: #FFF;
+  background-image: none;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7 .statusbar {
+  position: absolute;
+  width: 375px;
+  height: 20px;
+  left: 25px;
+  right: 75px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus {
+  zoom: 0.33333;
+  background: #111;
+  border-radius: 150px;
+  box-shadow: 0px 0px 0px 4px #aaa;
+  width: 1393px;
+  height: 2786px;
+  padding: 290px 75px;
+  position: relative;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus .component {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////zMzMOOqqgwAAAGtJREFUeNrs1cEJADAIBEHtv2nBHhSUySu/gQtsIvpkn/07GDxxNzL4H2xwsFYbGazVBgdrNRis1WCwT8Lrgn0SYLBWg7Xa4GCtNjJYqw0O1mowWKvBYK0Ga7XBwVptZLBWg8FaDT4ClwADAAGSHCFEPpclAAAAAElFTkSuQmCC);
+  height: 100%;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus .component-white {
+  background-color: #FFF;
+  background-image: none;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus .statusbar {
+  position: absolute;
+  width: 1080px;
+  height: 40px;
+  left: 50px;
+  top: 140px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.phoneSimulator .demoArea .viewer-container .iPhoneX {
+  zoom: 0.33333;
+  background: #111;
+  border-radius: 110px;
+  box-shadow: 0px 0px 0px 4px #aaa;
+  width: 1277px;
+  height: 2588px;
+  padding: 76px 76px;
+  position: relative;
+}
+.phoneSimulator .demoArea .viewer-container .iPhoneX .component {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////zMzMOOqqgwAAAGtJREFUeNrs1cEJADAIBEHtv2nBHhSUySu/gQtsIvpkn/07GDxxNzL4H2xwsFYbGazVBgdrNRis1WCwT8Lrgn0SYLBWg7Xa4GCtNjJYqw0O1mowWKvBYK0Ga7XBwVptZLBWg8FaDT4ClwADAAGSHCFEPpclAAAAAElFTkSuQmCC);
+  border-radius: 55px;
+  height: 100%;
+}
+.phoneSimulator .demoArea .viewer-container .iPhoneX .component-white {
+  background-color: #FFF;
+  background-image: none;
+}
+.phoneSimulator .demoArea .viewer-container .iPhoneX .statusbar {
+  position: absolute;
+  width: 1125px;
+  height: 40px;
+  left: 50px;
+  top: 140px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5 {
+  zoom: 0.5;
+  background: #111;
+  border-radius: 110px;
+  box-shadow: 0px 0px 0px 4px #aaa;
+  width: 753px;
+  height: 1588px;
+  padding: 226px 57px;
+  position: relative;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5 .component {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////zMzMOOqqgwAAAGtJREFUeNrs1cEJADAIBEHtv2nBHhSUySu/gQtsIvpkn/07GDxxNzL4H2xwsFYbGazVBgdrNRis1WCwT8Lrgn0SYLBWg7Xa4GCtNjJYqw0O1mowWKvBYK0Ga7XBwVptZLBWg8FaDT4ClwADAAGSHCFEPpclAAAAAElFTkSuQmCC);
+  height: 100%;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5 .component-white {
+  background-color: #FFF;
+  background-image: none;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5 .statusbar {
+  position: absolute;
+  width: 640px;
+  height: 40px;
+  left: 50px;
+  top: 140px ;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7:after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 30px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 5px solid #333;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7:before {
+  content: '';
+  width: 120px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  background: #333;
+  top: 64px;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus:after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  margin-left: -75px;
+  bottom: 45px ;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 10px solid #333;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone7Plus:before {
+  content: '';
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  background: #333;
+  top: 96px;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5:after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 30px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 5px solid #333;
+}
+.phoneSimulator .demoArea .viewer-container .iPhone5:before {
+  content: '';
+  width: 120px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  background: #333;
+  top: 64px;
+}
