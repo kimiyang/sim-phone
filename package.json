@@ -2,7 +2,7 @@
   "name": "sim-phone",
   "version": "1.0.0",
   "description": "A phone simulator in react page to rener iframe page.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist && lessc src/index.less dist/index.css"
   },
